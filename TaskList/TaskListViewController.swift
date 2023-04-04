@@ -14,8 +14,9 @@ enum AlertActionType {
 
 class TaskListViewController: UITableViewController {
     
+    private lazy var storageManager = StorageManager.shared
+    
     private let cellID = "task"
-    private let storageManager = StorageManager.shared
     private var taskList: [Task] = []
     
 
