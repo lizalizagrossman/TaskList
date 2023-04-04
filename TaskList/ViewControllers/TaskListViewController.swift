@@ -28,6 +28,7 @@ class TaskListViewController: UITableViewController {
         setUpNavigationBar()
     }
     
+    // MARK: - Private functions
     private func addNewTask(){
         showAlert(withTitle: "New Task", andMessage: "What do you want to do?", action: .saveAction)
     }

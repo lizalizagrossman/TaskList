@@ -39,6 +39,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B346105229DC9E2500079EA4 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B3F3DFD329DB0E6F006D40FE /* AppDelegate.swift */,
+				B3F3DFE429DB0E70006D40FE /* Info.plist */,
+				B3F3DFD529DB0E6F006D40FE /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B346105329DC9E3400079EA4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B3F3DFD729DB0E6F006D40FE /* TaskListViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B346105429DC9E3E00079EA4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B3F3DFEC29DB4F66006D40FE /* StorageManager.swift */,
+				B3F3DFDC29DB0E6F006D40FE /* TaskList.xcdatamodeld */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B346105529DC9EB400079EA4 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				B3F3DFE129DB0E70006D40FE /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		B346105629DC9EBF00079EA4 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B3F3DFDF29DB0E70006D40FE /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		B3F3DFC729DB0E6F006D40FE = {
 			isa = PBXGroup;
 			children = (
@@ -58,14 +101,11 @@
 		B3F3DFD229DB0E6F006D40FE /* TaskList */ = {
 			isa = PBXGroup;
 			children = (
-				B3F3DFD329DB0E6F006D40FE /* AppDelegate.swift */,
-				B3F3DFD529DB0E6F006D40FE /* SceneDelegate.swift */,
-				B3F3DFD729DB0E6F006D40FE /* TaskListViewController.swift */,
-				B3F3DFEC29DB4F66006D40FE /* StorageManager.swift */,
-				B3F3DFDF29DB0E70006D40FE /* Assets.xcassets */,
-				B3F3DFE129DB0E70006D40FE /* LaunchScreen.storyboard */,
-				B3F3DFE429DB0E70006D40FE /* Info.plist */,
-				B3F3DFDC29DB0E6F006D40FE /* TaskList.xcdatamodeld */,
+				B346105229DC9E2500079EA4 /* App */,
+				B346105329DC9E3400079EA4 /* ViewControllers */,
+				B346105429DC9E3E00079EA4 /* Services */,
+				B346105529DC9EB400079EA4 /* Storyboards */,
+				B346105629DC9EBF00079EA4 /* Assets */,
 			);
 			path = TaskList;
 			sourceTree = "<group>";
@@ -285,7 +325,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = PJMX9LFVDP;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TaskList/Info.plist;
+				INFOPLIST_FILE = TaskList/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
@@ -316,7 +356,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = PJMX9LFVDP;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TaskList/Info.plist;
+				INFOPLIST_FILE = TaskList/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
