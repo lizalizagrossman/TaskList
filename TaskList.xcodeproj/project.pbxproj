@@ -13,6 +13,7 @@
 		B3F3DFDE29DB0E6F006D40FE /* TaskList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B3F3DFDC29DB0E6F006D40FE /* TaskList.xcdatamodeld */; };
 		B3F3DFE029DB0E70006D40FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3F3DFDF29DB0E70006D40FE /* Assets.xcassets */; };
 		B3F3DFE329DB0E70006D40FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3F3DFE129DB0E70006D40FE /* LaunchScreen.storyboard */; };
+		B3F3DFED29DB4F66006D40FE /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F3DFEC29DB4F66006D40FE /* StorageManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B3F3DFDF29DB0E70006D40FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3F3DFE229DB0E70006D40FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B3F3DFE429DB0E70006D40FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3F3DFEC29DB4F66006D40FE /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				B3F3DFD329DB0E6F006D40FE /* AppDelegate.swift */,
 				B3F3DFD529DB0E6F006D40FE /* SceneDelegate.swift */,
 				B3F3DFD729DB0E6F006D40FE /* TaskListViewController.swift */,
+				B3F3DFEC29DB4F66006D40FE /* StorageManager.swift */,
 				B3F3DFDF29DB0E70006D40FE /* Assets.xcassets */,
 				B3F3DFE129DB0E70006D40FE /* LaunchScreen.storyboard */,
 				B3F3DFE429DB0E70006D40FE /* Info.plist */,
@@ -139,6 +142,7 @@
 			files = (
 				B3F3DFDE29DB0E6F006D40FE /* TaskList.xcdatamodeld in Sources */,
 				B3F3DFD829DB0E6F006D40FE /* TaskListViewController.swift in Sources */,
+				B3F3DFED29DB4F66006D40FE /* StorageManager.swift in Sources */,
 				B3F3DFD429DB0E6F006D40FE /* AppDelegate.swift in Sources */,
 				B3F3DFD629DB0E6F006D40FE /* SceneDelegate.swift in Sources */,
 			);
